@@ -1,0 +1,11 @@
+.head {
+  text-align: center;
+}
+body {
+  background-color: lightpink;
+  color: salmon;
+  font-size: 25px;
+}
+.white-font {
+  color: white;
+}
