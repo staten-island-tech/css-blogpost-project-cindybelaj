@@ -1,3 +1,21 @@
+.header-image {
+  height: 25%;
+  width: 50%;
+  background-image: url(met-header.jpg);
+  background-image: -webkit-linear-gradient(
+    linear,
+    left top,
+    right bottom,
+    from(rgba(229, 231, 226, 0.3)),
+    to(rgba(118, 102, 247, 0.5))
+  );
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(229, 231, 226, 0.3),
+    rgba(118, 102, 247, 0.5)
+  );
+  background-size: cover;
+}
 body {
   background: lightpink;
   text-align: center;
@@ -7,10 +25,4 @@ body {
   box-sizing: border-box;
   font-family: "Libre Baskerville", serif;
   color: white;
-}
-header {
-  color: white;
-}
-article-one {
-  
 }
