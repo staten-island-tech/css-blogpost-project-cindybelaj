@@ -1,11 +1,16 @@
-.head {
-  text-align: center;
-}
 body {
-  background-color: lightpink;
-  color: salmon;
-  font-size: 25px;
-}
-.white-font {
+  background: lightpink;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Libre Baskerville", serif;
   color: white;
+}
+header {
+  color: white;
+}
+article-one {
+  
 }
